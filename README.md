@@ -1,51 +1,69 @@
-# AI-Health-Assistant
-AI-powered Medical Chatbot 🤖 that provides health advice, disease-symptom analysis, and multilingual support using NLP and machine learning. It helps users receive personalized recommendations and health tips in multiple languages.
+# Smart AI Assistant
 
-🚀 Features
+## Overview
+This project implements a simple **AI-powered assistant** that interacts with users through a command-line or script-based interface. The assistant processes user input and generates responses using predefined logic and external AI services where applicable.
 
-Disease-Symptom-Cure Analysis:
-Leverages a medical dataset to provide accurate analysis of symptoms, potential diseases, and recommended remedies.
+The project demonstrates how to structure an AI assistant application in Python, focusing on interaction flow and response handling.
 
-Personalized Health Tips:
-Offers tailored advice for better well-being based on user inputs and health queries.
+---
 
-Multilingual Support:
-Supports multiple languages to ensure global accessibility and inclusivity.
+## Project Structure
+```
+Smart-AI-Assistant-main/
+│
+├── main.py                 # Main application script
+├── requirements.txt        # Python dependencies
+├── README.md
+└── LICENSE
+```
 
-AI-Based Response Generation:
-Utilizes advanced NLP models (e.g., MedAlpaca-7B) to generate context-aware and reliable responses.
+---
 
-User-Friendly Interface:
-Built with Streamlit, providing an intuitive and interactive experience for users.
+## Functionality
+The assistant performs the following tasks:
 
-🛠️ Technologies Used
+- Accepts user input
+- Processes the input using Python logic
+- Generates appropriate responses
+- Continues interaction until the program is terminated
 
-Natural Language Processing (NLP):
-Powered by the allMiniLM-L6-v2 model for medical-specific language understanding and response generation.
+The behavior of the assistant is defined within the main script.
 
-Machine Learning:
-Uses PyTorch and Hugging Face Transformers for model inference and optimization.
+---
 
-Streamlit:
-For building a seamless and interactive web-based interface.
+## How to Run
 
-Multilingual Support:
-Enabled through advanced tokenization and google translator api.
+### Prerequisites
+- Python
 
-🌍 Multilingual Support
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-Our chatbot is equipped with multilingual capabilities, allowing it to respond in various languages. Simply input your query, and the chatbot will provide an answer in the language of your choice.
+### Run the Assistant
+```bash
+python main.py
+```
 
-🙏 Acknowledgments
+---
 
-Streamlit: For the easy-to-use web framework.
+## Tools and Technologies Used
+- Python
 
-Google Translate API: For enabling multilingual support and translations.
+---
 
+## Purpose
+This project serves as a basic example of building an AI assistant application in Python and can be extended with more advanced natural language processing or external AI integrations.
 
-## 🛠️ Installation
-Run locally in your system by installing transformers and running python file
-1. pip install sentence-transformers
-2. streamlit run chat.py
+---
 
+## Author
+Bhavyam Ramani
+Swarangi Gawli
+Sagar Patil
 
+---
+
+## License
+This project is licensed under the MIT License.
